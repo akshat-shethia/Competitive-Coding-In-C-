@@ -53,21 +53,38 @@ void err(istream_iterator<string> it, T a, Args... args)
 }
 // typedef tree<ll, null_type, less<ll>, rb_tree_tag, tree_order_statistics_node_update> pbds;
 
-int f(vector<int> &arr, int n)
-{
-    if (n == 0)
-        return 0;
-    int ans = 0;
-    loop(j, 1, n)
-        ans = max(ans, f(arr, n - j) + arr[j]);
-    return ans;
-}
 int main(int argc, char const *argv[])
 {
+
     int t;
     cin >> t;
-    vector<int> arr(t + 1);
-    loop(i, 1, t) cin >> arr[i];
-    cout << f(arr, t) << endl;
+    while (t--)
+    {
+        vector<string> arr;
+        bool flag = true;
+        for (int i = 0; i < 6; i++)
+        {
+            cin >> arr[i];
+        }
+        loop(i, 0, 5)
+        {
+            int cons = 0;
+            loop(j, i + 1, 4)
+            {
+                if (arr[i] == arr[j])
+                    cons++;
+            }
+            if (cons == 3)
+            {
+                flag = false;
+                break;
+            }
+        }
+        if (flag == false)
+            cout << "NO" << endl;
+        else
+            cout << "YES" << endl;
+    }
+
     return 0;
 }
