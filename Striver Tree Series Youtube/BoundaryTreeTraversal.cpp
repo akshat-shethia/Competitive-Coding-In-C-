@@ -1,4 +1,4 @@
-// link->://www.codingninjas.com/studio/problems/boundary-traversal-of-binary-tree_790725
+// link->www.codingninjas.com/studio/problems/boundary-traversal-of-binary-tree_790725
 
 /************************************************************
 
