@@ -1,5 +1,3 @@
-
-
 // link->https://www.codingninjas.com/studio/problems/house-robber-ii_839733
 #include <bits/stdc++.h>
 #define ll long long
