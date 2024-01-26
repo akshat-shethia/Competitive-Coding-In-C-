@@ -29,6 +29,7 @@ int fITER(int n, vector<int> &heights)
     return dp[n - 1];
 }
 
+
 // SINCE WE ONLY NEED THHE PREV 2 VALS FOR THE CURR VAL PREV2, PREV, CURR WE CAN OPTIMSE THE SC
 // DP[I-2] = PREV2; DP[I-1] = PREV; DP[I] = CURR;
 int fSpaceOptimised(int n, vector<int> &heights)
