@@ -41,7 +41,6 @@ bool fITER(int i, int sum, vector<int> &arr, vector<vector<bool>> &dp)
     }
     return dp[i][sum];
 }
-
 bool spaceOptimised(int i, int sum, vector<int> &arr, vector<vector<bool>> &dp)
 {
     vector<bool> prev(arr.size(), false), curr(sum + 1, false);
