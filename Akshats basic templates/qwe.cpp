@@ -65,7 +65,6 @@ bool cmp(int a, int b)
 }
 int main(int argc, char const *argv[])
 {
-
     ios_base::sync_with_stdio(false);
     cin.tie(NULL);
     int t;
