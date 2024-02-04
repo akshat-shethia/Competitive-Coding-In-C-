@@ -38,7 +38,6 @@ int fITER(int n, int w, vector<int> &profit, vector<int> &weight)
     }
     return dp[n - 1][w];
 }
-
 int spaceOptimised(int n, int w, vector<int> &profit, vector<int> &weight)
 {
     vector<int> prev(w + 1, 0), curr(w + 1, 0);
