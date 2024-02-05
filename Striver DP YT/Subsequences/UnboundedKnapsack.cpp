@@ -61,7 +61,6 @@ int spaceOptimised(int n, int w, vector<int> &profit, vector<int> &weight)
     }
     return prev[w];
 }
-
 int unboundedKnapsack(int n, int w, vector<int> &profit, vector<int> &weight)
 {
     dp.assign(n, vector<int>(w + 1, -1));
