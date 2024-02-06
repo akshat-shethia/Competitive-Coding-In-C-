@@ -5,7 +5,7 @@ Welcome to my competitive coding playground! 🏆 This repository is a treasure 
 ## :open_file_folder: Contents
 
 - **DSA Mastery**: Solutions to challenging DSA sheets
-- **Contest Chronicles**: Battle-hardened codes from competitive programming contests
+- **Contest Chronicles**: Battle-hardened codes from competitive programming contests💫
 
 ## :file_folder: Organization
 
