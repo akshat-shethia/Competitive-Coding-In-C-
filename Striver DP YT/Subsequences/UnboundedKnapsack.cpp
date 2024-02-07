@@ -16,7 +16,6 @@ int f(int n, int w, vector<int> &profit, vector<int> &weight)
     int notTake = f(n - 1, w, profit, weight);
     return dp[n][w] = max(take, notTake);
 }
-
 int fITER(int n, int w, vector<int> &profit, vector<int> &weight)
 {
     for (int i = 0; i <= w; i++)
