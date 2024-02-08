@@ -9,7 +9,7 @@ Welcome to my competitive coding playground! 🏆 This repository is a treasure 
 
 ## :file_folder: Organization
 
-Explore folders meticulously organized by topic, providing a structured learning experience for different DSA concepts. Each contest has its own section, capturing the essence of intense coding showdowns.
+Explore folders meticulously organized by topic, providing a structured learning experience for different DSA concepts. Each contest has its own section, capturing the essence of intense coding showdowns.📑
 
 ## :rocket: Usage
 
